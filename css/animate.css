@@ -135,15 +135,15 @@
 }
 
 .screen-4_type_item_i_2 {
-    transition: all 1s 1.5s;
+    transition: all 0.5s 1s;
 }
 
 .screen-4_type_item_i_3 {
-    transition: all 1.5s 2s;
+    transition: all 1s 1.5s;
 }
 
 .screen-4_type_item_i_4 {
-    transition: all 2s 2.5s;
+    transition: all 1.5s 2s;
 }
 
 .screen-4_type_item_i_1_animate_init, .screen-4_type_item_i_2_animate_init, .screen-4_type_item_i_3_animate_init, .screen-4_type_item_i_4_animate_init {
