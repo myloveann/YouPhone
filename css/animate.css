@@ -110,6 +110,88 @@
     border-color: white;
 }
 
+/*字体震动效果*/
+@-webkit-keyframes shake {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    10% {
+        transform: rotate(3deg);
+    }
+    20% {
+        transform: rotate(-3deg);
+    }
+    30% {
+        transform: rotate(2deg);
+    }
+    40% {
+        transform: rotate(-2deg);
+    }
+    50% {
+        transform: rotate(1deg);
+    }
+    60% {
+        transform: rotate(-1deg);
+    }
+    70% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+@keyframes shake {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    10% {
+        transform: rotate(3deg);
+    }
+    20% {
+        transform: rotate(-3deg);
+    }
+    30% {
+        transform: rotate(2deg);
+    }
+    40% {
+        transform: rotate(-2deg);
+    }
+    50% {
+        transform: rotate(1deg);
+    }
+    60% {
+        transform: rotate(-1deg);
+    }
+    70% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.screen-3_features_item_number_1{
+    -webkit-animation: shake 1s 1s infinite;
+    animation:shake 1s  1s infinite;
+}
+.screen-3_features_item_number_2{
+    -webkit-animation: shake 1s 1.3s infinite;
+    animation:shake 1s  1.3s infinite;
+}
+
+.screen-3_features_item_number_3{
+    -webkit-animation: shake 1s 1.8s infinite;
+    animation:shake 1s  1.8s infinite;
+}
+
+.screen-3_features_item_number_4{
+    -webkit-animation: shake 1s 2.2s infinite;
+    animation:shake 1s  2.2s infinite;
+}
+
+
 /*第四块屏幕样式设置*/
 .screen-4_heading, .screen-4_phone, .screen-4_subheading {
     transition: all 1s;
